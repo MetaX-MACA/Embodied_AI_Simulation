@@ -1,0 +1,26 @@
+MetaX Embodied AI Simulation Solution
+Copyright 2025 MetaX Integrated Circuits (Shanghai) Co.,Ltd.
+Please see the LICENSE for the license for this project.
+
+The MetaX Embodied AI Simulation Solution project contains third-party components with separate copyright notices and license terms. Your use of the source code for the these third-party components are subject to the terms and conditions of their licenses. 
+
+The following files may have been Modified by MetaX Integrated Circuits (Shanghai) Co., Ltd. in 2025.  
+
+data/assets/backwall_asset.xml
+data/assets/backwall_chain.xml
+data/assets/hingecabinet_asset.xml
+data/assets/hingecabinet_chain.xml
+data/assets/kettle_asset.xml
+data/assets/kettle_chain.xml
+data/assets/microwave_asset.xml
+data/assets/microwave_chain.xml
+data/assets/mug_asset.xml
+data/assets/mug_chain.xml
+data/assets/oven_asset.xml
+data/assets/oven_chain.xml
+data/assets/slidecabinet_asset.xml
+data/assets/slidecabinet_chain.xml
+data/assets/table_asset.xml
+data/assets/table_chain.xml
+data/third_party/panda.xml
+manipulation/panda_controller.py

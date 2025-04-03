@@ -1,0 +1,3 @@
+-   primitive_func_name: approach_object_trajectories
+-   waypoint_func_name: move_to_microwave_timer_knob
+-   gripper_closure: 0.0

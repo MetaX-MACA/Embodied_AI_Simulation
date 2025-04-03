@@ -1,0 +1,1 @@
+data/sample_kitchen_tasks/Open_Slide_Cabinet_Door_The_robotic_arm_will_open_the_slide_cabinet_door.yaml

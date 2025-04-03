@@ -1,0 +1,1 @@
+data/sample_kitchen_tasks/Retrieve_Mug_from_Slide_Cabinet_The_robot_arm_will_retrieve_a_mug_from_the_open_slide_cabinet.yaml

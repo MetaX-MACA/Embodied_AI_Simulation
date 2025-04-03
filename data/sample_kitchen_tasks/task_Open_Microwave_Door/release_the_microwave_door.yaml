@@ -1,0 +1,3 @@
+-   primitive_func_name: release_grasp_trajectories
+-   waypoint_func_name: None
+-   gripper_closure: 0.0

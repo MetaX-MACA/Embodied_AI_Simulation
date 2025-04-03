@@ -1,0 +1,6 @@
+bodies:
+mug_base
+
+
+joints: 
+None

@@ -1,0 +1,4 @@
+ move to the mug inside the sliding cabinet
+ grasp the mug
+ retrieve the mug from slidecabinet
+ release the mug

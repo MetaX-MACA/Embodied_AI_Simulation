@@ -1,0 +1,21 @@
+-   use_table: true
+-   center: (0.6, 0.4, 1.6)
+    lang: a common microwave
+    movable: false
+    name: microwave
+    type: xml
+-   center: (0.82, 0.16, 2.3)
+    lang: a wooden slide cabinet
+    movable: false
+    name: slidecabinet
+    type: xml
+-   center: (0.6, 0.4, 2.141)
+    lang: a ceramic mug
+    movable: true
+    name: mug
+    type: xml
+-   solution_path: data/sample_kitchen_tasks/task_Open_Slide_Cabinet_Door
+-   slidedoor_joint: '0'
+-   task_description: The robotic arm will open the slide cabinet door
+    task_name: Open Slide Cabinet Door
+-   scene_xml_path: data/sample_kitchen_tasks/task_Open_Slide_Cabinet_Door/scene/scene.xml

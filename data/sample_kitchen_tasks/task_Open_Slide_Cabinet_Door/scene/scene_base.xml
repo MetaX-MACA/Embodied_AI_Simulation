@@ -1,0 +1,69 @@
+<mujoco>
+    <asset>
+        <!-- 天空颜色 -->
+        <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="3072"/>
+        <!-- 棋盘地面 -->
+        <!-- <texture type="2d" name="texplane" builtin="checker" mark="edge" rgb1="0.2 0.3 0.4" rgb2="0.1 0.2 0.3"
+            markrgb="0.8 0.8 0.8" width="300" height="300"/> -->
+        <!-- 瓷砖地面 -->
+        <texture name="texplane" type="2d" height="1" width="1" file="./textures/white_marble_tile.png" />
+        <material name='MatPlane' reflectance='0.1' texture="texplane" texrepeat="5 5" texuniform="true"/>
+    </asset>
+
+    <visual>
+        <!-- 头灯，漫反射光、环境光、镜面反射光颜色 -->
+        <headlight diffuse="0.6 0.6 0.6" ambient="0.2 0.2 0.2" specular="0.2 0.2 0.2"/>
+        <!-- 提高阴影质量 -->
+        <quality shadowsize="4048"/>
+        <!-- 雾效的颜色和透明度，距离相机较远的物体会逐渐融入雾的颜色中，从而增强场景的深度感 -->
+        <rgba haze="0.15 0.25 0.35 1"/>
+    </visual>
+
+    <!-- <include  file="./franka_emika_panda/panda.xml"/> -->
+    <!-- 有IK求解器的机械臂 -->
+    <include  file="./third_party/panda.xml"/>
+    
+    <include file="./assets/table_asset.xml"/>
+    <!-- 背景墙 -->
+    <include file="./assets/backwall_asset.xml"/>
+    <!-- 铰链柜 -->
+    <include file="./assets/hingecabinet_asset.xml"/>
+    <!-- 烧水壶 -->
+    <!-- <include file="./assets/kettle_asset.xml"/> -->
+    <!-- 烤箱 -->
+    <include file="./assets/oven_asset.xml"/>
+
+    <worldbody>
+        <light diffuse='1.0 1.0 1.0' pos="0 0 5" dir="0 0 -1" directional="true"/>
+        <geom name="floor" pos='0 0 0' size="0 0 0.05" type="plane" material="MatPlane"/>
+        <camera name="front_cam" pos="-3.248 1.553 3.190" xyaxes="-0.604 -0.797 -0.000 0.329 -0.249 0.911" fovy="45"/>
+
+
+        <body name='table' pos="0 0 0">
+		    <include file="./assets/table_chain.xml"/>
+        </body>
+        
+        <body name="oven" pos="-0.65 -1.56 0" euler="0 0 3.14">
+            <include file="./assets/oven_chain.xml"/>
+        </body>
+
+        <body name="backwall" pos="-0.4 -1.6 0" euler="0 0 3.14">
+            <include file="./assets/backwall_chain.xml"/>
+        </body>
+
+        <!-- 
+            0.82 -0.7 2.3 左侧墙壁
+            0.45 -1.86 2.3 右侧墙壁
+        -->
+        <body name="hingecabinet" pos="0.45 -1.86 2.3" euler="0 0 -3.14">
+            <include file="./assets/hingecabinet_chain.xml"/>
+        </body>
+        
+        <!-- 移除烧水壶，打开将导致微波炉状态不正确，如不能初始化为开门状态 -->
+        <!-- <body name="kettle" pos="-0.53 -1.15 1.626">
+            <freejoint/>
+            <include file="./assets/kettle_chain.xml"/>
+        </body> -->
+
+    </worldbody>
+</mujoco>

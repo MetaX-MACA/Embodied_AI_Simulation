@@ -1,0 +1,14 @@
+<mujocoinclude>
+    <body childclass="cm_base" name="mug_base">
+
+      <geom type="mesh" name="mug" mesh="mug" pos="0 0 0.035" material="cmwhite"/>
+      <geom class="cm_col" name="mug_col" pos="0 0 0.035" size="0.028 0.035" type="cylinder" mass=".05"/>
+      <site type="sphere" name="mug_center_site" pos="0 0 0.035" size=".005" group="3" rgba="1 0 0 1"/>
+
+      <!-- <body childclass="cm_base" name="mug_handle">
+          <geom type="mesh" mesh="handle" pos="0.039 0 0.047" euler="1.571 0 0"  material="cmwhite"/>
+          <geom class="cm_col" pos="0.039 0 0.047" size="0.02 0.005" type="cylinder" euler="1.571 0 0" mass=".002"/>
+      </body> -->
+    </body>
+
+</mujocoinclude>

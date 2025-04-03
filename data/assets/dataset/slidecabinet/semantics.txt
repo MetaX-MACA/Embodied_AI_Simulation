@@ -1,0 +1,2 @@
+slide heavy slidecabinet_body
+slidedoor slide door

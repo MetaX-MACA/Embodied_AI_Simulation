@@ -1,0 +1,22 @@
+-   use_table: true
+-   center: (0.8, 0.2, 1.6)
+    lang: a common microwave
+    movable: false
+    name: microwave
+    type: xml
+-   center: (0.82, 0.16, 2.3)
+    lang: a wooden slidecabinet
+    movable: false
+    name: slidecabinet
+    type: xml
+-   center: (0.6, 0.4, 2.141)
+    lang: a coffee mug
+    movable: true
+    name: mug
+    type: xml
+-   solution_path: data/sample_kitchen_tasks/task_Adjust_Microwave_Temperature
+-   micro_temperature_joint: '0'
+-   task_description: The robotic arm will turn the microwaves temperature knob to
+        set a desired temperature
+    task_name: Adjust Microwave Temperature
+-   scene_xml_path: data/sample_kitchen_tasks/task_Adjust_Microwave_Temperature/scene/scene.xml

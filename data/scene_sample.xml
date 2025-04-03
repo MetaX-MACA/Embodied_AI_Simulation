@@ -1,0 +1,24 @@
+<mujoco>
+    <include file='./scene_base.xml'/>
+    <include file="./assets/microwave_asset.xml"/>
+    <include file="./assets/slidecabinet_asset.xml"/>
+    <include file="./assets/mug_asset.xml"/>
+
+    <worldbody>
+        <body name='microwave' pos="0.75 0.35 1.6" euler="0 0 -1.57">
+            <include file="./assets/microwave_chain.xml"/>
+        </body>
+        <body name="slidecabinet" pos="0.82 0.16 2.3" euler="0 0 -1.57">
+            <include file="./assets/slidecabinet_chain.xml"/>
+        </body>
+
+        <!-- 
+            0.8 -0.35 1.6  位于桌面
+            0.6 0.5 2.141 位于左铰链柜内
+         -->
+        <body name='mug' pos="0.6 0.4 2.141" euler="0 0 -1.57">
+            <freejoint/>
+            <include file="./assets/mug_chain.xml"/>
+        </body>
+    </worldbody>
+</mujoco>

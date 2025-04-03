@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<mujoco>
+    
+    <include file="./scene_base.xml"/>
+    
+    <worldbody>
+        
+        <body name="microwave" pos="0.75  0.3  1.6" euler="0 0 -1.57">
+            <include file="./assets/microwave_chain.xml"/>
+        </body>
+        <body name="slidecabinet" pos="0.82  0.16  2.3" euler="0 0 -1.57">
+            <include file="./assets/slidecabinet_chain.xml"/>
+        </body>
+        <body name="mug" pos="0.6  0.4  2.141" euler="0 0 -1.57">
+            <include file="./assets/mug_chain.xml"/>
+            <freejoint/>
+        </body>
+    </worldbody>
+    
+    <include file="./assets/microwave_asset.xml"/>
+    <include file="./assets/slidecabinet_asset.xml"/>
+    <include file="./assets/mug_asset.xml"/>
+</mujoco>

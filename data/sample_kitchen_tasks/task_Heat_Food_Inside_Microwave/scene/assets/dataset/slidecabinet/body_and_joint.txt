@@ -1,0 +1,6 @@
+bodies:
+slide
+slidedoor
+
+joints: 
+joint_name: slidedoor_joint joint_type: slide parent_body: slide child_body: slidedoor

@@ -1,0 +1,10 @@
+bodies:
+microroot
+microdoorroot
+micro_timer_knob
+micro_temperature_knob
+
+joints: 
+joint_name: microdoorroot_joint joint_type: hinge parent_body: microroot child_body: microdoorroot
+joint_name: micro_timer_joint joint_type: hinge parent_body: microroot child_body: micro_timer_knob
+joint_name: micro_temperature_joint joint_type: hinge parent_body: microroot child_body: micro_temperature_knob

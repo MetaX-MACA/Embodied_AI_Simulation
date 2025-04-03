@@ -1,0 +1,4 @@
+ move to the microwave door
+ grasp the microwave door
+ open the microwave door
+ release the microwave door

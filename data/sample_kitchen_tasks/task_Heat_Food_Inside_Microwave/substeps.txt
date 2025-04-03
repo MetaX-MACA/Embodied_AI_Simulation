@@ -1,0 +1,16 @@
+ move to the mug inside the sliding cabinet
+ grasp the mug
+ put the mug into microwave
+ release the mug
+ move to the microwave temperature knob
+ grasp the microwave temperature knob
+ rotate the microwave temperature knob
+ release the microwave temperature knob
+ move to the microwave timer knob
+ grasp the microwave timer knob
+ rotate the microwave timer knob
+ release the microwave timer knob
+ move to the microwave door
+ grasp the microwave door
+ close the microwave door
+ release the microwave door

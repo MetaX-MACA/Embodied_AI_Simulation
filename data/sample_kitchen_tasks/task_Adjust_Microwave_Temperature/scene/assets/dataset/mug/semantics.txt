@@ -1,0 +1,1 @@
+mug_base heavy mug_body

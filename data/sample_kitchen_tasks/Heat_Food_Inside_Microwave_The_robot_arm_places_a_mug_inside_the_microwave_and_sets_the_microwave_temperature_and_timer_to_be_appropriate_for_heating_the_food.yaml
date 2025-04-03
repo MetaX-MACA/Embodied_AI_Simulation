@@ -1,0 +1,25 @@
+-   use_table: true
+-   center: (0.8, 0.4, 1.6)
+    lang: a common microwave
+    movable: false
+    name: microwave
+    type: xml
+-   center: (0.82, 0.16, 2.3)
+    lang: a wooden slide cabinet
+    movable: false
+    name: slidecabinet
+    type: xml
+-   center: (0.6, 0.4, 2.141)
+    lang: a coffee mug
+    movable: true
+    name: mug
+    type: xml
+-   solution_path: data/sample_kitchen_tasks/task_Heat_Food_Inside_Microwave
+-   micro_temperature_joint: '0'
+    micro_timer_joint: '0'
+    microdoorroot_joint: '1'
+    slidedoor_joint: '1'
+-   task_description: The robot arm places a mug inside the microwave, and sets the
+        microwave temperature and timer to be appropriate for heating the food
+    task_name: Heat Food Inside Microwave
+-   scene_xml_path: data/sample_kitchen_tasks/task_Heat_Food_Inside_Microwave/scene/scene.xml

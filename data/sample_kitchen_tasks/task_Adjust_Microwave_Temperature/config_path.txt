@@ -1,0 +1,1 @@
+data/sample_kitchen_tasks/Adjust_Microwave_Temperature_The_robotic_arm_will_turn_the_microwaves_temperature_knob_to_set_a_desired_temperature.yaml

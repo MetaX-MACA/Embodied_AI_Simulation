@@ -1,0 +1,4 @@
+microroot heavy microwave_body
+microdoorroot hinge door
+micro_timer_knob hinge timer_knob
+micro_temperature_knob hinge temperature_knob

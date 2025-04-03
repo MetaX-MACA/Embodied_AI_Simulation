@@ -1,0 +1,21 @@
+-   use_table: false
+-   center: (0.8, 0.4, 1.6)
+    lang: a common microwave
+    movable: false
+    name: microwave
+    type: xml
+-   center: (0.82, 0.16, 2.3)
+    lang: a slide cabinet
+    movable: false
+    name: slidecabinet
+    type: xml
+-   center: (0.6, 0.4, 2.141)
+    lang: a mug
+    movable: true
+    name: mug
+    type: xml
+-   solution_path: ddata/sample_kitchen_tasks/task_Retrieve_Mug_from_Slide_Cabinet
+-   slidedoor_joint: '1'
+-   task_description: The robot arm will retrieve a mug from the open slide cabinet
+    task_name: Retrieve Mug from Slide Cabinet
+-   scene_xml_path: data/sample_kitchen_tasks/task_Retrieve_Mug_from_Slide_Cabinet/scene/scene.xml

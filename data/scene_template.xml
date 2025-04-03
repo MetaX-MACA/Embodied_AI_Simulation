@@ -1,0 +1,6 @@
+<mujoco>
+    <include file='./scene_base.xml'/>
+    <worldbody>
+        
+    </worldbody>
+</mujoco>
