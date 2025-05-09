@@ -1,0 +1,13 @@
+MetaX Embodied AI Simulation For Mujoco
+Copyright 2025 MetaX Integrated Circuits (Shanghai) Co.,Ltd.
+Please see the LICENSE for the license for this project.
+
+The MetaX Embodied AI Simulation For Mujoco project contains third-party components with separate copyright notices and license terms. Your use of the source code for the these third-party components are subject to the terms and conditions of their licenses. 
+
+The following files may have been Modified by MetaX Integrated Circuits (Shanghai) Co., Ltd. in 2025.  
+
+assets/go1/xml/go1_corret.xml
+algos/comoppo/go1_backflip_mujoco.yaml
+tasks/go1_backflip_mujoco.yaml
+
+

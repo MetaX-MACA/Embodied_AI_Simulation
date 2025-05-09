@@ -1,0 +1,10 @@
+numpy==1.26.4
+mujoco>=3.2.7
+ruamel.yaml>=0.18.10
+requests>=2.32.3
+pandas>=2.2.3
+scipy>=1.15.1
+wandb>=0.19.8
+opencv-python==4.10.0.84
+gymnasium==1.0.0
+stable_baselines3==2.4.1
