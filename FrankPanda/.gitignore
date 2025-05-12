@@ -1,5 +1,6 @@
 **/__pycache__/**
 .vscode/
+data/generated_tasks_release
 *.zip
 *.mp4
 *.npz

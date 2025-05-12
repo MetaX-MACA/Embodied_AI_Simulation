@@ -95,7 +95,7 @@ cp ./algos/comoppo/go1_backflip_mujoco.yaml ./Stage-Wise-CMORL/algos/comoppo/
 ```
 
 ## Rendering
-We use the `Mujoco` to render the simulation results.Since most server configurations lack display outputs, use the following command for off-screen rendering.
+We use the `MuJoCo` to render the simulation results.Since most server configurations lack display outputs, use the following command for off-screen rendering.
 ``` shell
 apt-get install libosmesa6-dev
 export MUJOCO_GL=osmesa
