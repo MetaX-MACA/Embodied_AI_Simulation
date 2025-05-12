@@ -2,33 +2,20 @@
 
 [英文版](README.md) | 中文版
 
-## 介绍
+![logo](./imgs/logo.png)
+## 简介
 
-本方案用于具身智能研究领域，基于沐曦C系列GPU强大的训练推理能力，利用LLM的通用理解与推理能力，赋予机器人智能的大脑，从传统的手动设计流程，变成了主动启发推理，实现全流程的生成式模拟仿真。
+Embodied_AI_Simulation 基于沐曦C系列GPU，是一套面向具身智能研究与应用的仿真解决方案与工具库。目标是提供一个功能丰富、技术领先、性能优异的仿真基础设施，帮助开发者、研究人员与企业用户高效构建、训练和评估具身智能体。
 
-我们使用LLM进行强化学习任务的全流程AI驱动，实现端到端自动进行：任务提出 — 奖励函数生成 — 环境仿真 — 技能学习 等一系列步骤。
+平台集成主流仿真引擎MuJoCo、深度强化学习算法、标准化任务基准和高性能并行训练工具，结合行业迁移实践经验，提供行业迁移的最佳实践，全面提升具身智能算法的开发与验证效率，助力智能体技术从研究走向落地应用。
 
-我们使用如下厨房场景来展示解决方案。
+## 现有解决方案
+### 1. 基于LLM的全自动具身仿真方案
+- **[Frank Panda机械臂](./FrankPanda/README_zh.md)** 在厨房场景中，结合大语言模型（LLM）的通用理解与推理能力，为机器人赋能智能大脑。从传统的手动设计与控制流程，转变为具备自主启发与决策能力的全流程生成式模拟仿真。
 
-![kitchen](./imgs/kitchen.jpg)
+### 2. 高阶复杂技能仿真方案
+- **[Go1 机械狗](./Go1/README_zh.md)** 将机械狗的后空翻技能拆解为简单且独立的动作单元，实现复杂技能在MuJoCo环境中的高效迁移与训练。不仅提升了训练效率与迁移稳定性，也为后续在MuJoCo平台上开发高阶技能，或将技能从Isaac Gym等其他环境迁移至MuJoCo，提供了可行且高效的最佳实践范式。
 
-我们的项目受[RoboGen](https://github.com/Genesis-Embodied-AI/RoboGen)启发，为了更好的仿真渲染效果，我们将仿真引擎从PyBullet迁移至MuJoCo，并遵循RogoGen的流程进行任务生成与训练。
+## 许可证书
 
-一个简单的操作演示：
-
-![demo](./imgs/demo.gif)
-
-## 安装
-
-环境安装请参考 [install.md](./docs/install.md)
-
-## 使用 
-详细使用方法请参考 [usage.md](./docs/usage.md)
-
-## 致谢
-
-本项目灵感来自 [RoboGen](https://github.com/Genesis-Embodied-AI/RoboGen).  
-
-本项目中使用的Franka机械臂资产与控制代码来自 [parzivar](https://github.com/parzivar/Franka-Research-3-Robot-Simulation-with-Xbox-Controller-Integration-in-MuJoCo). 
-
-本项目中使用的厨房资产来自 [franka-kitchen](https://github.com/9mande/franka-kitchen)（链接已失效）.  
+本项目的发布受 [Apache License Version 2.0](./LICENSE) 许可认证, 欢迎大家使用和贡献。

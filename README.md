@@ -2,35 +2,20 @@
 
 English | [中文版](README_zh.md)
 
-## About
+![logo](./imgs/logo.png)
+## Introduction
 
-This solution is designed for the field of embodied intelligence. Leveraging the powerful training and inference capabilities of the **MetaX C500 GPU**, it utilizes the general understanding and reasoning capabilities of LLMs to provide robots with an intelligent "brain". This transforms the traditional manual design pipeline into an actively driven, inference-based process, enabling a fully generative simulation workflow.
+Embodied_AI_Simulation, developed based on MetaX C-Series GPUs, is a comprehensive simulation solution and toolkit tailored for embodied intelligence research and applications.It is designed to provide a feature-rich, technologically advanced, and high-performance simulation infrastructure that enables developers, researchers, and enterprise users to efficiently build, train, and evaluate embodied agents.
 
-We employ LLMs to drive the entire reinforcement learning pipeline in an AI-powered manner, enabling end-to-end automation across a series of steps, including: **task formulation — reward function generation — environment simulation — skill learning**.
+The platform seamlessly integrates leading simulation engines such as MuJoCo, cutting-edge deep reinforcement learning algorithms, standardized task benchmarks, and high-efficiency parallel training tools.Leveraging extensive industry migration practices, it offers proven methodologies to enhance the development and validation efficiency of embodied intelligence algorithms, facilitating the transition of intelligent agent technologies from research prototypes to real-world deployment.
 
-We demonstrate our solution using the following kitchen scenario.
+## Available Solutions
+### 1. Fully Automated Embodied Simulation with LLMs
+- **[Frank Panda Robotic Arm](./FrankPanda/README.md)** In kitchen scenarios, by harnessing the general understanding and reasoning capabilities of large language models (LLMs), the robotic arm is endowed with an intelligent decision-making core.This advancement transforms conventional manually designed control workflows into a fully generative simulation process, driven by autonomous reasoning, inspiration, and decision-making.
 
-![kitchen](./imgs/kitchen.jpg)
+### 2. Advanced Complex Skill Simulation
+- **[Go1 Quadruped Robot](./Go1/README.md)** By decomposing the backflip skill of the quadruped robot into simple and independent action units, we enable the efficient transfer and training of complex skills within the MuJoCo environment.This approach not only improves training efficiency and transfer stability, but also establishes a practical and effective paradigm for developing advanced skills on the MuJoCo platform, as well as for migrating skills from environments such as Isaac Gym to MuJoCo.
 
-Our project is inspired by [RoboGen](https://github.com/Genesis-Embodied-AI/RoboGen).
-To achieve better simulation rendering effects, we have migrated the simulation engine from PyBullet to MuJoCo. Meanwhile, we follow the RoboGen workflow for task generation and training.  
+## License
 
-Here is a simple operation demo
-
-![demo](./imgs/demo.gif)
-
-## Installation
-
-Please refer to [install.md](./docs/install.md) for environment setup.
-
-## Usage
-
-Please refer to [usage.md](./docs/usage.md) for usage.
-
-## Acknowledgements
-
-This project is inspired by [RoboGen](https://github.com/Genesis-Embodied-AI/RoboGen).  
-
-The Franka robotic arm assets and control code used in this project are from [parzivar](https://github.com/parzivar/Franka-Research-3-Robot-Simulation-with-Xbox-Controller-Integration-in-MuJoCo). 
-
-The kitchen assets used in this project are from [franka-kitchen](https://github.com/9mande/franka-kitchen)(unvalid).
+This project is released under the [Apache License Version 2.0](./LICENSE). Contributions and usage are warmly welcomed.

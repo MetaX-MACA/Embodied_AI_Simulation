@@ -93,7 +93,7 @@ pip install -r requirements.txt
 
 We use [Open Motion Planning Library (OMPL)](https://ompl.kavrakilab.org/) for motion planning as part of the pipeline to solve the generated task.
 
-Note: if you are having trouble building OMPL from source, the maintainer of OMPL has suggested to use the prebuilt python wheels at [here](https://github.com/ompl/ompl/releases/tag/prerelease). Use the wheel that matches your python version, e.g., if you are using python3.10, download [this wheel](https://github.com/ompl/ompl/releases/download/prerelease/ompl-1.6.0-cp310-cp310-manylinux_2_28_x86_64.whl).Then run the pip command in your python environment to install ompl.
+Note: if you are having trouble building OMPL from source, the maintainer of OMPL has suggested to use the prebuilt python wheels at [here](https://github.com/ompl/ompl/releases/tag/prerelease). Use the wheel that matches your python version, e.g., if you are using python3.10, download [this wheel](https://github.com/ompl/ompl/releases/download/prerelease/ompl-1.7.0-cp310-cp310-manylinux_2_28_x86_64.whl).Then run the pip command in your python environment to install ompl.
 
 ```shell
 pip install ompl-1.6.0-cp310-cp310-manylinux_2_28_x86_64.whl

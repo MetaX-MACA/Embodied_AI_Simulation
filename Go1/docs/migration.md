@@ -13,7 +13,7 @@ The primary goal is to ensure that the robot model (e.g., MJCF/XML) is reconstru
 ```shell
 # The project provides robot models for Isaac Gym and MuJoCo, with details as follows:
 Issac Gym robot model: ./Stage-Wise-CMORL/assets/go1/urdf/go1.urdf
-Mujoco robot model: ./Stage-Wise-CMORL/assets/go1/xml/go1.xml
+MuJoCo robot model: ./Stage-Wise-CMORL/assets/go1/xml/go1.xml
 ```
 
 However, when using the provided XML for training the quadruped robot's skills in MuJoCo, it was found that the corresponding skills could not be learned. The main reason is that the provided URDF and XML are not equivalent at the model level, with the XML lacking corresponding components.
