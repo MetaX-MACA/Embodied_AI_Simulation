@@ -59,8 +59,8 @@ sudo apt-get install libosmesa6-dev -y
 ### Create python environment
 ``` shell
 # create conda environment
-conda create -n sim_mujoco python=3.10
-conda activate sim_mujoco
+conda create -n sim_panda_mujoco python=3.10
+conda activate sim_panda_mujoco
 ```
 
 ### Download PyTorch and vLLM from MetaX Developer Center
@@ -85,7 +85,7 @@ pip install ./*.whl
 
 ### Install python packages
 ``` shell
-cd ./metax_embodied_simulation
+cd ./FrankPanda
 pip install -r requirements.txt
 ```
 
@@ -96,7 +96,7 @@ We use [Open Motion Planning Library (OMPL)](https://ompl.kavrakilab.org/) for m
 Note: if you are having trouble building OMPL from source, the maintainer of OMPL has suggested to use the prebuilt python wheels at [here](https://github.com/ompl/ompl/releases/tag/prerelease). Use the wheel that matches your python version, e.g., if you are using python3.10, download [this wheel](https://github.com/ompl/ompl/releases/download/prerelease/ompl-1.7.0-cp310-cp310-manylinux_2_28_x86_64.whl).Then run the pip command in your python environment to install ompl.
 
 ```shell
-pip install ompl-1.6.0-cp310-cp310-manylinux_2_28_x86_64.whl
+pip install ompl-1.7.0-cp310-cp310-manylinux_2_28_x86_64.whl
 ```
 
 To install OMPL from source, the reference document at: https://ompl.kavrakilab.org/installation.html , installation steps are here:
@@ -110,11 +110,11 @@ chmod +x install-ompl-ubuntu.sh
 sudo apt-get install doxygen libflann-dev -y
 
 # modify line 88 of install-ompl-ubuntu.sh and replace it with your Python path from the Conda environment
-cmake ../.. -DPYTHON_EXEC=~/miniconda3/envs/sim_mujoco/bin/python${PYTHONV}
+cmake ../.. -DPYTHON_EXEC=~/miniconda3/envs/sim_panda_mujoco/bin/python${PYTHONV}
 
 # install OMPL with Python bindings
 ./install-ompl-ubuntu.sh --python
 
 # copy ompl folder to your python environment
-cp -r ./ompl-1.6.0/py-bindings/ompl ~/miniconda3/envs/sim_mujoco/lib/python3.10/site-packages/
+cp -r ./ompl-1.6.0/py-bindings/ompl ~/miniconda3/envs/sim_panda_mujoco/lib/python3.10/site-packages/
 ```
