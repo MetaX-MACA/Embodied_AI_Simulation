@@ -73,7 +73,7 @@ pip install ./*.whl
 
 ### Install python packages
 ``` shell
-cd ./embodied_ai_simulation_for_mujoco
+cd ./Go1
 pip install -r requirements.txt
 ```
 
