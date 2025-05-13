@@ -54,7 +54,7 @@ Modify floor physical properties to achieve superior visual demonstration:
 <geom name='floor' type='plane' conaffinity='1' condim='3' contype='1' material='plane' pos='0 0 0' size='0 0 1'/>
 ```
 
-We provide the corrected XML configuration file at: embodied_ai_simulation_for_mujoco/assets/go1/xml/go1_correct.xml
+We provide the corrected XML configuration file at: Go1/assets/go1/xml/go1_correct.xml
 
 ## 2. API replacement
 

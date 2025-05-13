@@ -57,13 +57,13 @@ conda create -n sim_mujoco python=3.10
 conda activate sim_mujoco
 ```
 
-### Download PyTorch and vLLM from MetaX Developer Center
+### Download PyTorch from MetaX Developer Center
 **Note** Please download the version that matches the Driver, such as `2.31.x.x`.
 
 PyTorch: [link](https://developer.metax-tech.com/softnova/category?package_kind=AI&dimension=metax&chip_name=%E6%9B%A6%E4%BA%91C500%E7%B3%BB%E5%88%97&deliver_type=%E5%88%86%E5%B1%82%E5%8C%85&ai_frame=pytorch&ai_label=Pytorch)
 
 
-You will receive two tar archives. After extracting them, navigate to the `wheel` directory and install using `pip`.
+You will receive tar archives. After extracting them, navigate to the `wheel` directory and install using `pip`.
 ``` shell
 # install PyTorch
 tar -xvf maca-pytorch2.4-py310-2.31.0.4-x86_64.tar.xz
@@ -73,7 +73,7 @@ pip install ./*.whl
 
 ### Install python packages
 ``` shell
-cd ./embodied_ai_simulation_for_mujoco
+cd ./Go1
 pip install -r requirements.txt
 ```
 
