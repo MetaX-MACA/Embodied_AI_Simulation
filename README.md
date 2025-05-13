@@ -19,3 +19,7 @@ The platform seamlessly integrates leading simulation engines such as MuJoCo, cu
 ## License
 
 This project is released under the [Apache License Version 2.0](./LICENSE). Contributions and usage are warmly welcomed.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=MetaX-MACA/Embodied_AI_Simulation&type=Date)](https://www.star-history.com/#MetaX-MACA/Embodied_AI_Simulation&Date)
