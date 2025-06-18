@@ -1,0 +1,20 @@
+Metax Deep Reinforcement Learning Framework
+Copyright 2025 MetaX Integrated Circuits (Shanghai) Co.,Ltd.
+Please see the LICENSE for the license for this project.
+
+The MetaX Embodied AI Simulation For Mujoco project contains third-party components with separate copyright notices and license terms. Your use of the source code for the these third-party components are subject to the terms and conditions of their licenses. 
+
+The following files may have been Modified by MetaX Integrated Circuits (Shanghai) Co., Ltd. in 2025.  
+
+example/offline/awac/train.py
+example/offline/bcq/train.py
+example/offline/bear/train.py
+example/offline/cql/train.py
+example/offline/crr/train.py
+example/offline/decision_transformer/train.py
+example/offline/iql/train.py
+example/offline/plas/train.py
+example/offline/td3/train.py
+example/offline/td3_plus_bc/train.py
+
+
