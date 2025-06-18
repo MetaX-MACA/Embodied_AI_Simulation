@@ -1,0 +1,14 @@
+numpy==1.21.6
+mujoco==3.3.2
+mujoco-py==2.0.2.10
+mujoco-python-viewer==0.1.4
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+requests==2.32.3
+requests-oauthlib==2.0.0
+pandas==2.2.3
+scipy==1.15.1
+opencv-python==4.10.0.84
+gym==0.23.1
+gym-notices==0.0.8
+gymnasium==1.1.1

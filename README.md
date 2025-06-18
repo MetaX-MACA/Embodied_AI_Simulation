@@ -18,6 +18,8 @@ The platform seamlessly integrates leading simulation engines such as MuJoCo, cu
 - **[Go1 Quadruped Robot](./Go1/README.md)** By decomposing the backflip skill of the quadruped robot into simple and independent action units, we enable the efficient transfer and training of complex skills within the MuJoCo environment.This approach not only improves training efficiency and transfer stability, but also establishes a practical and effective paradigm for developing advanced skills on the MuJoCo platform, as well as for migrating skills from environments such as Isaac Gym to MuJoCo.<br/>
 ![demo](./Go1/imgs/demo.gif)
 
+### 3. Deep Reinforcement Learning Framework
+- **[MetaxDRL](./MetaxDRL/README.md)** a lightweight framework designed specifically for Deep Reinforcement Learning (DRL), offering high-quality, single-file implementations of various mainstream reinforcement learning algorithms. Its core design philosophy centers on simplicity, readability, and practicality, enabling users to quickly grasp algorithm principles while supporting flexible customization and experimental innovation.<br/>
 ## License
 
 This project is released under the [Apache License Version 2.0](./LICENSE). Contributions and usage are warmly welcomed.
